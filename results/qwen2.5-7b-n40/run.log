@@ -1,0 +1,211 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3656.76it/s]
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3353.36it/s]
+[generate] 6160 jobs to run (80 already done) in 154 groups
+[generate] 40/6160 (suggested_answer fs=False causal_judgment unbiased cot=True) 3.8 min elapsed, ETA 585.2 min
+[generate] 80/6160 (suggested_answer fs=False causal_judgment unbiased cot=False) 6.5 min elapsed, ETA 490.7 min
+[generate] 120/6160 (suggested_answer fs=False date_understanding biased cot=True) 9.6 min elapsed, ETA 482.8 min
+[generate] 160/6160 (suggested_answer fs=False date_understanding biased cot=False) 10.5 min elapsed, ETA 392.1 min
+[generate] 200/6160 (suggested_answer fs=False date_understanding unbiased cot=True) 13.5 min elapsed, ETA 401.8 min
+[generate] 240/6160 (suggested_answer fs=False date_understanding unbiased cot=False) 14.4 min elapsed, ETA 354.6 min
+[generate] 280/6160 (suggested_answer fs=False disambiguation_qa biased cot=True) 16.5 min elapsed, ETA 347.1 min
+[generate] 320/6160 (suggested_answer fs=False disambiguation_qa biased cot=False) 17.2 min elapsed, ETA 313.1 min
+[generate] 360/6160 (suggested_answer fs=False disambiguation_qa unbiased cot=True) 19.2 min elapsed, ETA 309.5 min
+[generate] 400/6160 (suggested_answer fs=False disambiguation_qa unbiased cot=False) 19.8 min elapsed, ETA 284.7 min
+[generate] 440/6160 (suggested_answer fs=False hyperbaton biased cot=True) 22.1 min elapsed, ETA 286.9 min
+[generate] 480/6160 (suggested_answer fs=False hyperbaton biased cot=False) 22.5 min elapsed, ETA 266.4 min
+[generate] 520/6160 (suggested_answer fs=False hyperbaton unbiased cot=True) 24.7 min elapsed, ETA 267.5 min
+[generate] 560/6160 (suggested_answer fs=False hyperbaton unbiased cot=False) 25.0 min elapsed, ETA 250.4 min
+[generate] 600/6160 (suggested_answer fs=False logical_deduction_five_objects biased cot=True) 29.0 min elapsed, ETA 268.5 min
+[generate] 640/6160 (suggested_answer fs=False logical_deduction_five_objects biased cot=False) 30.0 min elapsed, ETA 258.5 min
+[generate] 680/6160 (suggested_answer fs=False logical_deduction_five_objects unbiased cot=True) 33.6 min elapsed, ETA 271.0 min
+[generate] 720/6160 (suggested_answer fs=False logical_deduction_five_objects unbiased cot=False) 34.6 min elapsed, ETA 261.1 min
+[generate] 760/6160 (suggested_answer fs=False movie_recommendation biased cot=True) 38.0 min elapsed, ETA 270.1 min
+[generate] 800/6160 (suggested_answer fs=False movie_recommendation biased cot=False) 38.6 min elapsed, ETA 258.5 min
+[generate] 840/6160 (suggested_answer fs=False movie_recommendation unbiased cot=True) 41.9 min elapsed, ETA 265.2 min
+[generate] 880/6160 (suggested_answer fs=False movie_recommendation unbiased cot=False) 42.4 min elapsed, ETA 254.1 min
+[generate] 920/6160 (suggested_answer fs=False navigate biased cot=True) 44.4 min elapsed, ETA 252.8 min
+[generate] 960/6160 (suggested_answer fs=False navigate biased cot=False) 45.0 min elapsed, ETA 243.7 min
+[generate] 1000/6160 (suggested_answer fs=False navigate unbiased cot=True) 46.9 min elapsed, ETA 242.0 min
+[generate] 1040/6160 (suggested_answer fs=False navigate unbiased cot=False) 47.4 min elapsed, ETA 233.5 min
+[generate] 1080/6160 (suggested_answer fs=False ruin_names biased cot=True) 50.0 min elapsed, ETA 235.4 min
+[generate] 1120/6160 (suggested_answer fs=False ruin_names biased cot=False) 50.6 min elapsed, ETA 227.7 min
+[generate] 1160/6160 (suggested_answer fs=False ruin_names unbiased cot=True) 53.0 min elapsed, ETA 228.5 min
+[generate] 1200/6160 (suggested_answer fs=False ruin_names unbiased cot=False) 53.5 min elapsed, ETA 221.1 min
+[generate] 1240/6160 (suggested_answer fs=False snarks biased cot=True) 55.6 min elapsed, ETA 220.5 min
+[generate] 1280/6160 (suggested_answer fs=False snarks biased cot=False) 56.1 min elapsed, ETA 214.0 min
+[generate] 1320/6160 (suggested_answer fs=False snarks unbiased cot=True) 58.0 min elapsed, ETA 212.5 min
+[generate] 1360/6160 (suggested_answer fs=False snarks unbiased cot=False) 58.5 min elapsed, ETA 206.3 min
+[generate] 1400/6160 (suggested_answer fs=False sports_understanding biased cot=True) 60.1 min elapsed, ETA 204.4 min
+[generate] 1440/6160 (suggested_answer fs=False sports_understanding biased cot=False) 60.6 min elapsed, ETA 198.5 min
+[generate] 1480/6160 (suggested_answer fs=False sports_understanding unbiased cot=True) 62.2 min elapsed, ETA 196.7 min
+[generate] 1520/6160 (suggested_answer fs=False sports_understanding unbiased cot=False) 62.6 min elapsed, ETA 191.0 min
+[generate] 1560/6160 (suggested_answer fs=False temporal_sequences biased cot=True) 66.3 min elapsed, ETA 195.4 min
+[generate] 1600/6160 (suggested_answer fs=False temporal_sequences biased cot=False) 67.4 min elapsed, ETA 192.1 min
+[generate] 1640/6160 (suggested_answer fs=False temporal_sequences unbiased cot=True) 73.8 min elapsed, ETA 203.4 min
+[generate] 1680/6160 (suggested_answer fs=False temporal_sequences unbiased cot=False) 74.7 min elapsed, ETA 199.1 min
+[generate] 1720/6160 (suggested_answer fs=False tracking_shuffled_objects_three_objects biased cot=True) 77.4 min elapsed, ETA 199.8 min
+[generate] 1760/6160 (suggested_answer fs=False tracking_shuffled_objects_three_objects biased cot=False) 78.5 min elapsed, ETA 196.3 min
+[generate] 1800/6160 (suggested_answer fs=False tracking_shuffled_objects_three_objects unbiased cot=True) 81.7 min elapsed, ETA 197.8 min
+[generate] 1840/6160 (suggested_answer fs=False tracking_shuffled_objects_three_objects unbiased cot=False) 82.8 min elapsed, ETA 194.3 min
+[generate] 1880/6160 (suggested_answer fs=False web_of_lies biased cot=True) 86.6 min elapsed, ETA 197.2 min
+[generate] 1920/6160 (suggested_answer fs=False web_of_lies biased cot=False) 87.5 min elapsed, ETA 193.2 min
+[generate] 1960/6160 (suggested_answer fs=False web_of_lies unbiased cot=True) 90.2 min elapsed, ETA 193.4 min
+[generate] 2000/6160 (suggested_answer fs=False web_of_lies unbiased cot=False) 90.6 min elapsed, ETA 188.5 min
+[generate] 2040/6160 (suggested_answer fs=True causal_judgment biased cot=True) 97.2 min elapsed, ETA 196.4 min
+[generate] 2080/6160 (suggested_answer fs=True causal_judgment biased cot=False) 312.2 min elapsed, ETA 612.5 min
+=== resume Wed Oct 28 13:01:37 IST 2026 on AC power ===
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3441.72it/s]
+[generate] 4080 jobs to run (2160 already done) in 102 groups
+[generate] 40/4080 (suggested_answer fs=True causal_judgment unbiased cot=True) 3.8 min elapsed, ETA 381.1 min
+[generate] 80/4080 (suggested_answer fs=True causal_judgment unbiased cot=False) 9.0 min elapsed, ETA 451.8 min
+=== resume Wed Oct 28 13:12:02 IST 2026 batch_size=12 ===
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3921.13it/s]
+[generate] 4000 jobs to run (2240 already done) in 100 groups
+[generate] 40/4000 (suggested_answer fs=True date_understanding biased cot=True) 4.1 min elapsed, ETA 406.7 min
+[generate] 80/4000 (suggested_answer fs=True date_understanding biased cot=False) 5.1 min elapsed, ETA 249.2 min
+[generate] 120/4000 (suggested_answer fs=True date_understanding unbiased cot=True) 7.8 min elapsed, ETA 251.3 min
+[generate] 160/4000 (suggested_answer fs=True date_understanding unbiased cot=False) 8.7 min elapsed, ETA 207.9 min
+[generate] 200/4000 (suggested_answer fs=True disambiguation_qa biased cot=True) 12.2 min elapsed, ETA 232.5 min
+[generate] 240/4000 (suggested_answer fs=True disambiguation_qa biased cot=False) 12.8 min elapsed, ETA 199.8 min
+[generate] 280/4000 (suggested_answer fs=True disambiguation_qa unbiased cot=True) 15.9 min elapsed, ETA 210.7 min
+[generate] 320/4000 (suggested_answer fs=True disambiguation_qa unbiased cot=False) 16.3 min elapsed, ETA 187.4 min
+[generate] 360/4000 (suggested_answer fs=True hyperbaton biased cot=True) 21.1 min elapsed, ETA 212.9 min
+[generate] 400/4000 (suggested_answer fs=True hyperbaton biased cot=False) 21.6 min elapsed, ETA 194.0 min
+[generate] 440/4000 (suggested_answer fs=True hyperbaton unbiased cot=True) 27.0 min elapsed, ETA 218.2 min
+[generate] 480/4000 (suggested_answer fs=True hyperbaton unbiased cot=False) 27.4 min elapsed, ETA 201.3 min
+[generate] 520/4000 (suggested_answer fs=True logical_deduction_five_objects biased cot=True) 31.8 min elapsed, ETA 212.7 min
+[generate] 560/4000 (suggested_answer fs=True logical_deduction_five_objects biased cot=False) 32.9 min elapsed, ETA 202.3 min
+[generate] 600/4000 (suggested_answer fs=True logical_deduction_five_objects unbiased cot=True) 36.8 min elapsed, ETA 208.6 min
+[generate] 640/4000 (suggested_answer fs=True logical_deduction_five_objects unbiased cot=False) 37.9 min elapsed, ETA 199.2 min
+[generate] 680/4000 (suggested_answer fs=True movie_recommendation biased cot=True) 41.0 min elapsed, ETA 200.0 min
+[generate] 720/4000 (suggested_answer fs=True movie_recommendation biased cot=False) 41.6 min elapsed, ETA 189.4 min
+[generate] 760/4000 (suggested_answer fs=True movie_recommendation unbiased cot=True) 44.5 min elapsed, ETA 189.8 min
+[generate] 800/4000 (suggested_answer fs=True movie_recommendation unbiased cot=False) 45.0 min elapsed, ETA 180.1 min
+[generate] 840/4000 (suggested_answer fs=True navigate biased cot=True) 47.9 min elapsed, ETA 180.3 min
+[generate] 880/4000 (suggested_answer fs=True navigate biased cot=False) 48.5 min elapsed, ETA 172.1 min
+[generate] 920/4000 (suggested_answer fs=True navigate unbiased cot=True) 51.5 min elapsed, ETA 172.4 min
+[generate] 960/4000 (suggested_answer fs=True navigate unbiased cot=False) 52.0 min elapsed, ETA 164.7 min
+[generate] 1000/4000 (suggested_answer fs=True ruin_names biased cot=True) 56.0 min elapsed, ETA 168.0 min
+[generate] 1040/4000 (suggested_answer fs=True ruin_names biased cot=False) 56.6 min elapsed, ETA 161.1 min
+[generate] 1080/4000 (suggested_answer fs=True ruin_names unbiased cot=True) 60.3 min elapsed, ETA 163.1 min
+[generate] 1120/4000 (suggested_answer fs=True ruin_names unbiased cot=False) 60.9 min elapsed, ETA 156.5 min
+[generate] 1160/4000 (suggested_answer fs=True snarks biased cot=True) 63.8 min elapsed, ETA 156.2 min
+[generate] 1200/4000 (suggested_answer fs=True snarks biased cot=False) 64.5 min elapsed, ETA 150.5 min
+[generate] 1240/4000 (suggested_answer fs=True snarks unbiased cot=True) 67.4 min elapsed, ETA 150.0 min
+[generate] 1280/4000 (suggested_answer fs=True snarks unbiased cot=False) 68.0 min elapsed, ETA 144.5 min
+[generate] 1320/4000 (suggested_answer fs=True sports_understanding biased cot=True) 69.5 min elapsed, ETA 141.0 min
+[generate] 1360/4000 (suggested_answer fs=True sports_understanding biased cot=False) 69.9 min elapsed, ETA 135.6 min
+[generate] 1400/4000 (suggested_answer fs=True sports_understanding unbiased cot=True) 70.9 min elapsed, ETA 131.8 min
+[generate] 1440/4000 (suggested_answer fs=True sports_understanding unbiased cot=False) 71.3 min elapsed, ETA 126.7 min
+[generate] 1480/4000 (suggested_answer fs=True temporal_sequences biased cot=True) 74.4 min elapsed, ETA 126.6 min
+[generate] 1520/4000 (suggested_answer fs=True temporal_sequences biased cot=False) 75.9 min elapsed, ETA 123.8 min
+[generate] 1560/4000 (suggested_answer fs=True temporal_sequences unbiased cot=True) 79.1 min elapsed, ETA 123.7 min
+[generate] 1600/4000 (suggested_answer fs=True temporal_sequences unbiased cot=False) 80.4 min elapsed, ETA 120.6 min
+[generate] 1640/4000 (suggested_answer fs=True tracking_shuffled_objects_three_objects biased cot=True) 83.5 min elapsed, ETA 120.2 min
+[generate] 1680/4000 (suggested_answer fs=True tracking_shuffled_objects_three_objects biased cot=False) 84.7 min elapsed, ETA 117.0 min
+[generate] 1720/4000 (suggested_answer fs=True tracking_shuffled_objects_three_objects unbiased cot=True) 87.4 min elapsed, ETA 115.8 min
+[generate] 1760/4000 (suggested_answer fs=True tracking_shuffled_objects_three_objects unbiased cot=False) 88.2 min elapsed, ETA 112.2 min
+[generate] 1800/4000 (suggested_answer fs=True web_of_lies biased cot=True) 91.8 min elapsed, ETA 112.2 min
+[generate] 1840/4000 (suggested_answer fs=True web_of_lies biased cot=False) 92.5 min elapsed, ETA 108.6 min
+[generate] 1880/4000 (suggested_answer fs=True web_of_lies unbiased cot=True) 96.7 min elapsed, ETA 109.0 min
+[generate] 1920/4000 (suggested_answer fs=True web_of_lies unbiased cot=False) 97.6 min elapsed, ETA 105.7 min
+[generate] 1960/4000 (ans_always_a fs=True causal_judgment biased cot=True) 104.2 min elapsed, ETA 108.4 min
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "./cot_unfaithfulness/cli.py", line 213, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "./cot_unfaithfulness/cli.py", line 208, in main
+    return {"doctor": cmd_doctor, "smoke": cmd_smoke, "archived": cmd_archived, "new-model": cmd_new_model,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./cot_unfaithfulness/cli.py", line 141, in cmd_new_model
+    run_dir = _run_new_model(cfg, "new_model")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./cot_unfaithfulness/cli.py", line 132, in _run_new_model
+    generation.run_generation(cfg, model, run_dir)
+  File "./cot_unfaithfulness/generation.py", line 101, in run_generation
+    results = model.generate_batch(prompts, max_tokens=mt, temperature=temperature, seed=seed)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./cot_unfaithfulness/models.py", line 145, in generate_batch
+    resp = batch_generate(self.model, self.tokenizer, inputs, prompt_caches=caches, max_tokens=max_tokens,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<site-packages>/mlx_lm/generate.py", line 1995, in batch_generate
+    while responses := gen.next_generated():
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "<site-packages>/mlx_lm/generate.py", line 1910, in next_generated
+    prompt_responses, generation_responses = self._next()
+                                             ^^^^^^^^^^^^
+  File "<site-packages>/mlx_lm/generate.py", line 1886, in _next
+    self._prompt_batch.prompt(prompts)
+  File "<site-packages>/mlx_lm/generate.py", line 1229, in prompt
+    mx.eval([c.state for c in self.prompt_cache])
+RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).
+=== resume Wed Oct 28 15:01:38 IST 2026 with Metal-OOM fallback ===
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3637.73it/s]
+[generate] 2040 jobs to run (4200 already done) in 51 groups
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 40/2040 (ans_always_a fs=True causal_judgment biased cot=False) 6.6 min elapsed, ETA 329.0 min
+[generate] 80/2040 (ans_always_a fs=True causal_judgment unbiased cot=True) 11.3 min elapsed, ETA 277.5 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 120/2040 (ans_always_a fs=True causal_judgment unbiased cot=False) 16.9 min elapsed, ETA 270.5 min
+[generate] 160/2040 (ans_always_a fs=True date_understanding biased cot=True) 21.0 min elapsed, ETA 246.3 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 200/2040 (ans_always_a fs=True date_understanding biased cot=False) 22.8 min elapsed, ETA 209.3 min
+[generate] 240/2040 (ans_always_a fs=True date_understanding unbiased cot=True) 25.7 min elapsed, ETA 192.6 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 280/2040 (ans_always_a fs=True date_understanding unbiased cot=False) 27.7 min elapsed, ETA 174.2 min
+[generate] 320/2040 (ans_always_a fs=True disambiguation_qa biased cot=True) 31.9 min elapsed, ETA 171.3 min
+[generate] 360/2040 (ans_always_a fs=True disambiguation_qa biased cot=False) 32.9 min elapsed, ETA 153.4 min
+[generate] 400/2040 (ans_always_a fs=True disambiguation_qa unbiased cot=True) 37.9 min elapsed, ETA 155.3 min
+[generate] 440/2040 (ans_always_a fs=True disambiguation_qa unbiased cot=False) 39.6 min elapsed, ETA 144.0 min
+[generate] 480/2040 (ans_always_a fs=True hyperbaton biased cot=True) 53.2 min elapsed, ETA 172.8 min
+[generate] 520/2040 (ans_always_a fs=True hyperbaton biased cot=False) 54.4 min elapsed, ETA 158.9 min
+[generate] 560/2040 (ans_always_a fs=True hyperbaton unbiased cot=True) 61.3 min elapsed, ETA 162.1 min
+[generate] 600/2040 (ans_always_a fs=True hyperbaton unbiased cot=False) 62.6 min elapsed, ETA 150.3 min
+[generate] 640/2040 (ans_always_a fs=True logical_deduction_five_objects biased cot=True) 70.1 min elapsed, ETA 153.3 min
+[generate] 680/2040 (ans_always_a fs=True logical_deduction_five_objects biased cot=False) 72.4 min elapsed, ETA 144.8 min
+[generate] 720/2040 (ans_always_a fs=True logical_deduction_five_objects unbiased cot=True) 79.4 min elapsed, ETA 145.5 min
+[generate] 760/2040 (ans_always_a fs=True logical_deduction_five_objects unbiased cot=False) 81.2 min elapsed, ETA 136.7 min
+[generate] 800/2040 (ans_always_a fs=True movie_recommendation biased cot=True) 86.9 min elapsed, ETA 134.8 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 840/2040 (ans_always_a fs=True movie_recommendation biased cot=False) 88.4 min elapsed, ETA 126.3 min
+[generate] 880/2040 (ans_always_a fs=True movie_recommendation unbiased cot=True) 93.3 min elapsed, ETA 122.9 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 920/2040 (ans_always_a fs=True movie_recommendation unbiased cot=False) 95.0 min elapsed, ETA 115.7 min
+[generate] 960/2040 (ans_always_a fs=True navigate biased cot=True) 100.2 min elapsed, ETA 112.7 min
+[generate] 1000/2040 (ans_always_a fs=True navigate biased cot=False) 101.4 min elapsed, ETA 105.5 min
+[generate] 1040/2040 (ans_always_a fs=True navigate unbiased cot=True) 106.3 min elapsed, ETA 102.2 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 1080/2040 (ans_always_a fs=True navigate unbiased cot=False) 107.9 min elapsed, ETA 95.9 min
+[generate] 1120/2040 (ans_always_a fs=True ruin_names biased cot=True) 113.1 min elapsed, ETA 92.9 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 1160/2040 (ans_always_a fs=True ruin_names biased cot=False) 114.3 min elapsed, ETA 86.7 min
+[generate] 1200/2040 (ans_always_a fs=True ruin_names unbiased cot=True) 119.5 min elapsed, ETA 83.6 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 1240/2040 (ans_always_a fs=True ruin_names unbiased cot=False) 120.8 min elapsed, ETA 77.9 min
+[generate] 1280/2040 (ans_always_a fs=True snarks biased cot=True) 123.8 min elapsed, ETA 73.5 min
+[generate] 1320/2040 (ans_always_a fs=True snarks biased cot=False) 124.6 min elapsed, ETA 68.0 min
+[generate] 1360/2040 (ans_always_a fs=True snarks unbiased cot=True) 128.0 min elapsed, ETA 64.0 min
+[generate] 1400/2040 (ans_always_a fs=True snarks unbiased cot=False) 128.8 min elapsed, ETA 58.9 min
+[generate] 1440/2040 (ans_always_a fs=True sports_understanding biased cot=True) 130.2 min elapsed, ETA 54.2 min
+[generate] 1480/2040 (ans_always_a fs=True sports_understanding biased cot=False) 130.8 min elapsed, ETA 49.5 min
+[generate] 1520/2040 (ans_always_a fs=True sports_understanding unbiased cot=True) 132.2 min elapsed, ETA 45.2 min
+[generate] 1560/2040 (ans_always_a fs=True sports_understanding unbiased cot=False) 132.8 min elapsed, ETA 40.9 min
+[generate] 1600/2040 (ans_always_a fs=True temporal_sequences biased cot=True) 136.7 min elapsed, ETA 37.6 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 1640/2040 (ans_always_a fs=True temporal_sequences biased cot=False) 140.0 min elapsed, ETA 34.1 min
+[generate] 1680/2040 (ans_always_a fs=True temporal_sequences unbiased cot=True) 144.1 min elapsed, ETA 30.9 min
+[generate] 1720/2040 (ans_always_a fs=True temporal_sequences unbiased cot=False) 146.1 min elapsed, ETA 27.2 min
+[generate] 1760/2040 (ans_always_a fs=True tracking_shuffled_objects_three_objects biased cot=True) 149.9 min elapsed, ETA 23.8 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 1800/2040 (ans_always_a fs=True tracking_shuffled_objects_three_objects biased cot=False) 151.7 min elapsed, ETA 20.2 min
+[generate] 1840/2040 (ans_always_a fs=True tracking_shuffled_objects_three_objects unbiased cot=True) 155.2 min elapsed, ETA 16.9 min
+[generate] 1880/2040 (ans_always_a fs=True tracking_shuffled_objects_three_objects unbiased cot=False) 156.4 min elapsed, ETA 13.3 min
+[generate] 1920/2040 (ans_always_a fs=True web_of_lies biased cot=True) 161.7 min elapsed, ETA 10.1 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 1960/2040 (ans_always_a fs=True web_of_lies biased cot=False) 163.5 min elapsed, ETA 6.7 min
+[generate] 2000/2040 (ans_always_a fs=True web_of_lies unbiased cot=True) 168.8 min elapsed, ETA 3.4 min
+[mlx] Metal OOM; retrying batch with completion_batch_size=6
+[generate] 2040/2040 (ans_always_a fs=True web_of_lies unbiased cot=False) 170.1 min elapsed, ETA 0.0 min
+run dir: ./runs/qwen2.5-7b-n40

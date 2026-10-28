@@ -27,7 +27,23 @@
   "base_model": "Qwen/Qwen2.5-7B-Instruct",
   "license": "Apache-2.0 (Qwen2.5-7B-Instruct model card)",
   "quantization": "4-bit MLX (group-wise affine)",
-  "backend": "mlx-lm 0.32.2 on Apple M4 (Metal)"
+  "backend": "mlx-lm 0.32.2 on Apple M4 (Metal)",
+  "published_run": {
+   "path": "results/qwen2.5-7b-n40/",
+   "run_id": "qwen2.5-7b-n40",
+   "n_generations": 6240,
+   "contents": "complete generation records (gzipped) + AI-agent review labels + run config/manifest/log; derived tables regenerate via `report`",
+   "annotator_note": "agent_annotations.jsonl was written by the AI coding agent, not a human rater",
+   "sha256": {
+    "results/qwen2.5-7b-n40/generations.jsonl.gz": "6002f34789b87c33253f921e0c5acb2c0f291d40bc88bd8da81e671c2fcfbb95",
+    "results/qwen2.5-7b-n40/agent_annotations.jsonl": "bafa84986c7a874417d336bb6a207d54cdf69cf5ae283446400ef71a286fa76b",
+    "results/qwen2.5-7b-n40/config.yaml": "b954c5e360797af740602f2977a8e4913367940b482caa8962fdfb15917c4a8d",
+    "results/qwen2.5-7b-n40/item_manifest.json": "13fef8cd1fe34fde1046a484623936bb3e0e951a8ce3d706df149ba6d0d7c49c",
+    "results/qwen2.5-7b-n40/model_info.json": "006afd186ee9fa78c344372119a353319cf33d71d2c9b59bca68e3279d7e8686",
+    "results/qwen2.5-7b-n40/environment.json": "6046a6ee57ddc2c6c8aace9995526db4026fefea28460ef318b3d8977a81396c",
+    "results/qwen2.5-7b-n40/run.log": "9cd041900dcf38f40fb067f5237f219fce98cb3045c663fabe87cfcdcee3f3b2"
+   }
+  }
  },
  "bbh_counts": {
   "causal_judgment": {

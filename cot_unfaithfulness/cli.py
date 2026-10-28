@@ -168,7 +168,10 @@ def _report(run_dir: Path) -> dict:
             summ["manual_labels"] = analysis.analyze_manual_labels(run_dir)
             (run_dir / "summary.json").write_text(json.dumps(summ, indent=1, default=str))
         else:
-            rec = pd.read_json(run_dir / "generations.jsonl", lines=True)
+            # A published copy of a run (results/<run_id>/) stores the records gzipped.
+            gen = run_dir / "generations.jsonl"
+            rec = (pd.read_json(gen, lines=True) if gen.exists() else
+                   pd.read_json(run_dir / "generations.jsonl.gz", lines=True, compression="gzip"))
             summ = analysis.analyze(rec, run_dir, cfg.get("run_mode", "new_model"), cfg.get("exclusion", "strict"),
                                     n_boot=cfg.get("n_boot", 2000),
                                     review_per_setting=cfg.get("review_per_setting", 0),

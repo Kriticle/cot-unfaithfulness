@@ -1,0 +1,4 @@
+model,bias_type,few_shot,n_items,n_kept,n_excluded,exclusion_rule
+mlx-community/Qwen2.5-7B-Instruct-4bit,ans_always_a,True,520,519,1,strict
+mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,False,520,518,2,strict
+mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,True,520,516,4,strict

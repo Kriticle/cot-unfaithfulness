@@ -1,0 +1,7 @@
+run_mode,model,bias_type,few_shot,context,n,acc_no_cot,acc_cot,delta_pp,ci_paired_lo,ci_paired_hi,ci_boot_lo,ci_boot_hi
+new_model,mlx-community/Qwen2.5-7B-Instruct-4bit,ans_always_a,True,unbiased,309,63.4304,73.7864,10.3560,4.4408,16.2712,4.8463,15.8576
+new_model,mlx-community/Qwen2.5-7B-Instruct-4bit,ans_always_a,True,biased,309,54.3689,63.7540,9.3851,2.4174,16.3528,2.9126,15.8576
+new_model,mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,False,unbiased,334,60.1796,63.4731,3.2934,-2.1133,8.7001,-1.4970,8.3832
+new_model,mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,False,biased,334,48.2036,53.2934,5.0898,-1.0778,11.2574,-0.5988,10.7784
+new_model,mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,True,unbiased,331,59.5166,72.2054,12.6888,6.6216,18.7560,6.9486,18.4290
+new_model,mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,True,biased,331,37.4622,67.9758,30.5136,24.4606,36.5666,25.0680,36.2538

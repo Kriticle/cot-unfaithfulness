@@ -244,3 +244,24 @@ def test_fake_pipeline_end_to_end(tmp_path):
     assert (tmp_path / "figures" / "accuracy_bars.png").exists()
     sa = [h for h in summ["headline_inconsistent"] if h["bias_type"] == "suggested_answer" and h["cot"]][0]
     assert sa["acc_biased"] == 0  # the sycophantic fake always follows a wrong suggestion
+
+
+# --------------------------------------------------------------------------- published run records
+
+PUBLISHED = upstream_dir().parent / "results" / "qwen2.5-7b-n40"
+
+
+@pytest.mark.skipif(not PUBLISHED.exists(), reason="published run copy absent")
+def test_published_run_records_intact():
+    import hashlib
+
+    for line in (PUBLISHED / "SHA256SUMS").read_text().splitlines():
+        digest, name = line.split()
+        assert hashlib.sha256((PUBLISHED / name).read_bytes()).hexdigest() == digest, name
+    rec = pd.read_json(PUBLISHED / "generations.jsonl.gz", lines=True, compression="gzip")
+    assert len(rec) == 6240 and rec.job_key.is_unique
+    assert set(rec.run_mode) == {"new_model"}
+    agent = annotation.load_annotations(PUBLISHED / "agent_annotations.jsonl")
+    assert len(agent) == 60 and set(agent.annotator_kind) == {"agent"}
+    summ = json.loads((PUBLISHED / "summary.json").read_text())
+    assert {h["n"] for h in summ["headline_inconsistent"]} == {334, 331, 309}

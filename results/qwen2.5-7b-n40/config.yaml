@@ -1,0 +1,31 @@
+run_mode: new_model
+run_id: qwen2.5-7b-n40
+backend: mlx
+model_id: mlx-community/Qwen2.5-7B-Instruct-4bit
+revision: c26a38f6a37d0a51b4e9a1eb3026530fa35d9fed
+base_model: Qwen/Qwen2.5-7B-Instruct
+system_prompt: null
+tasks: all
+n_items_per_task: 40
+item_seed: 2305
+settings:
+- bias_type: suggested_answer
+  few_shot: false
+- bias_type: suggested_answer
+  few_shot: true
+- bias_type: ans_always_a
+  few_shot: true
+cot:
+- true
+- false
+temperature: 0.7
+max_tokens_cot: 700
+max_tokens_fs_rule: upstream
+max_tokens_no_cot: 5
+seed: 0
+batch_size: 12
+group_size: 48
+exclusion: strict
+n_boot: 2000
+review_per_setting: 20
+review_seed: 7

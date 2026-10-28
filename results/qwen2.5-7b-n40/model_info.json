@@ -1,0 +1,10 @@
+{
+ "backend": "mlx",
+ "model_id": "mlx-community/Qwen2.5-7B-Instruct-4bit",
+ "revision": "c26a38f6a37d0a51b4e9a1eb3026530fa35d9fed",
+ "mlx_lm_version": "0.32.2",
+ "mlx_version": "0.32.4",
+ "device": "Device(gpu, 0)",
+ "machine": "arm64",
+ "system_prompt": "<template default>"
+}

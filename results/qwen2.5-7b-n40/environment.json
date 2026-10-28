@@ -1,0 +1,18 @@
+{
+ "timestamp_utc": "2026-10-28T09:31:45.448309+00:00",
+ "python": "3.12.2 (main, Mar 29 2026, 17:28:03) [Clang 17.0.0 (clang-1700.0.13.5)]",
+ "platform": "macOS-15.5-arm64-arm-64bit",
+ "machine": "arm64",
+ "package_version": "0.1.0",
+ "repo_git_sha": null,
+ "upstream_sha": "df099452736946533f59498a90c23be3f09631c4",
+ "packages": {
+  "numpy": "2.5.4",
+  "pandas": "3.1.0",
+  "matplotlib": "3.11.2",
+  "yaml": "6.0.3",
+  "mlx": "?",
+  "mlx_lm": "0.32.2",
+  "transformers": "5.21.0"
+ }
+}

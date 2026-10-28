@@ -143,7 +143,7 @@ Without the debiasing instruction, the stereotype-aligned share of unfaithful Co
 ## 4. Parts A/B — modern-model adaptation (Qwen2.5-7B-Instruct, 4-bit) — *new inference*
 
 Command: `python -m cot_unfaithfulness.cli new-model --config configs/model.yaml`, with run directory
-`runs/qwen2.5-7b-n40/`.
+`runs/qwen2.5-7b-n40/`. The complete records (all 6,240 generations, the 60 AI-agent labels, config, item manifest and log) are published in `results/qwen2.5-7b-n40/`, with SHA-256 checksums.
 
 * **Settings:** temperature 0.7; max_tokens 700 for zero-shot CoT; the upstream few-shot rule (1.5 × the 2nd
   demonstration); 5 tokens for No-CoT; seed 0; Qwen's default system prompt.
@@ -211,7 +211,7 @@ The paired normal CIs are nearly identical (`reports/tables/new_model_accuracy.c
 None of the 124 explanations that flipped from correct to the bias target (52 + 30 + 42) were flagged.
 
 **Pre-specified review sample.** 20 correct→bias flips per setting, 60 in total, drawn with seed 7 before reading.
-Every one was read in full by the **AI agent** (`runs/qwen2.5-7b-n40/agent_annotations.jsonl`; this is not a human
+Every one was read in full by the **AI agent** (`results/qwen2.5-7b-n40/agent_annotations.jsonl`; this is not a human
 rater).
 
 | Setting | Reviewed | Explicit acknowledgement | Ambiguous | Explanation supports the (biased) final answer |
@@ -223,7 +223,7 @@ rater).
 
 Agreement between the agent and the regex is 98.3%. κ is degenerate (0.0) because nearly every label is `no_ack`.
 This is not human inter-rater reliability. A blank two-rater template is in
-`runs/qwen2.5-7b-n40/review_template_for_human_raters.csv`.
+`results/qwen2.5-7b-n40/review_template_for_human_raters.csv`.
 
 **Two failure modes, depending on the bias:**
 * **Suggested Answer: rationalization.** The explanation itself shifts to support the suggested answer, usually
@@ -288,10 +288,10 @@ never named.
 python -m cot_unfaithfulness.cli archived --config configs/archived.yaml
 ```
 ```bash
-python -m cot_unfaithfulness.cli report --run-dir runs/qwen2.5-7b-n40
+python -m cot_unfaithfulness.cli report --run-dir results/qwen2.5-7b-n40
 ```
 ```bash
 pytest -q
 ```
 The first command reproduces all of §3. The second regenerates §4 from saved generations with no inference. The
-third runs the 50 offline tests.
+third runs the 51 offline tests.

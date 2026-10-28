@@ -73,7 +73,7 @@ python -m cot_unfaithfulness.cli report --run-dir runs/archived-reanalysis
 ```bash
 pytest -q
 ```
-There are 50 offline tests. They need no API and no model weights; tests that need `_upstream/` skip if it is absent.
+There are 51 offline tests. They need no API and no model weights; tests that need `_upstream/` skip if it is absent.
 
 Each run directory `runs/<run_id>/` contains:
 * `config.yaml`, `environment.json`, and `model_info.json` (model id and revision)
@@ -82,6 +82,14 @@ Each run directory `runs/<run_id>/` contains:
 * `pairs.csv`, `annotations.jsonl` (acknowledgement labels, stored apart from correctness), `tables/*.csv` and `figures/*.png`
 
 The figures copied into `reports/figures/` come from these artifacts.
+
+`runs/` is gitignored. The Qwen run's complete records are published in
+[results/qwen2.5-7b-n40/](results/qwen2.5-7b-n40/): all 6,240 generations (gzipped), the 60 review labels written by
+the AI agent (not a human rater), the config, item manifest, model revision and log, with SHA-256 checksums. Regenerate
+every Qwen table and figure from them, with inference disabled:
+```bash
+python -m cot_unfaithfulness.cli report --run-dir results/qwen2.5-7b-n40
+```
 
 ## Package layout
 

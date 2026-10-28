@@ -2,6 +2,18 @@
   "repo_name": "cot-unfaithfulness",
   "paper": "https://arxiv.org/abs/2305.04388",
   "public_source_code": "https://github.com/milesaturpin/cot-unfaithfulness",
-  "status": "specification_only_not_run",
-  "run_instructions": "Read AGENTS.md then TASK.md"
+  "status": "completed",
+  "completed": {
+    "archived_reanalysis": "exact re-analysis of the authors' archived GPT-3.5 / Claude 1.0 outputs; Tables 5, 8, 9, 12, 13 reproduced",
+    "new_model_adaptation": "Qwen2.5-7B-Instruct 4-bit MLX, 40 items/task, 6,240 generations; records published in results/qwen2.5-7b-n40/",
+    "tests": "50 offline pytest tests"
+  },
+  "not_done": [
+    "BBQ inference on the new model",
+    "human annotation (60-item review was labelled by the AI agent; a two-rater template is provided)",
+    "re-running text-davinci-003 / claude-v1 (retired)"
+  ],
+  "report": "reports/REPLICATION_REPORT.md",
+  "threats_to_validity": "reports/THREATS_TO_VALIDITY.md",
+  "run_instructions": "See README.md; AGENTS.md and TASK.md hold the original specification"
 }

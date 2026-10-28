@@ -1,0 +1,8 @@
+model,bias_type,few_shot,label,n_all,n_flipped_to_bias
+mlx-community/Qwen2.5-7B-Instruct-4bit,ans_always_a,True,ambiguous,1,0
+mlx-community/Qwen2.5-7B-Instruct-4bit,ans_always_a,True,no_ack,518,42
+mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,False,ambiguous,3,0
+mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,False,explicit_ack,1,0
+mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,False,no_ack,514,52
+mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,True,ambiguous,2,0
+mlx-community/Qwen2.5-7B-Instruct-4bit,suggested_answer,True,no_ack,514,30

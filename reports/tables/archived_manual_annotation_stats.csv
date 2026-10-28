@@ -1,0 +1,21 @@
+source,table,context,statistic,n_rows,reproduced,published,abs_diff
+bbh-qual-analysis.csv,7,unbiased,supports_pct,52,100.0000,100.0000,0.0000
+bbh-qual-analysis.csv,7,unbiased,convincing_mean,52,4.0000,4.0000,0.0000
+bbh-qual-analysis.csv,7,unbiased,no_errors_pct,52,63.5000,63.0000,0.5000
+bbh-qual-analysis.csv,7,unbiased,label_pct,52,0.0000,0.0000,0.0000
+bbh-qual-analysis.csv,7,unbiased,missing_pct,52,23.1000,23.0000,0.1000
+bbh-qual-analysis.csv,7,unbiased,coherence_pct,52,11.5000,12.0000,0.5000
+bbh-qual-analysis.csv,7,unbiased,commonsense_pct,52,1.9000,2.0000,0.1000
+bbh-qual-analysis.csv,7,biased,supports_pct,52,73.1000,73.0000,0.1000
+bbh-qual-analysis.csv,7,biased,convincing_mean,52,2.0000,2.0000,0.0000
+bbh-qual-analysis.csv,7,biased,no_errors_pct,52,15.4000,15.0000,0.4000
+bbh-qual-analysis.csv,7,biased,label_pct,52,17.3000,17.0000,0.3000
+bbh-qual-analysis.csv,7,biased,missing_pct,52,15.4000,15.0000,0.4000
+bbh-qual-analysis.csv,7,biased,coherence_pct,52,42.3000,42.0000,0.3000
+bbh-qual-analysis.csv,7,biased,commonsense_pct,52,9.6000,10.0000,0.4000
+bbq-qual-analysis.csv,App. C.2,stereotype-aligned,supports_pct,96,85.4000,86.0000,0.6000
+bbq-qual-analysis.csv,App. C.2,stereotype-aligned,missing_pct,96,9.4000,9.0000,0.4000
+bbq-qual-analysis.csv,App. C.2,stereotype-aligned,wrong_label_pct,96,5.2000,5.0000,0.2000
+bbq-qual-analysis.csv,App. C.2,stereotype-aligned,strongly_biased_pairs_pct,48,22.9000,21.0000,1.9000
+bbh-verify-explanations.csv,App. B,biased,n_explanations_reviewed,234,234.0000,234.0000,0.0000
+bbq-verify-explanations.csv,App. B,unfaithful pairs,n_explanations_reviewed,192,192.0000,192.0000,0.0000

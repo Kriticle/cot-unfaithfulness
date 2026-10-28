@@ -1,0 +1,33 @@
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*token*
+
+# Environments, caches and large experiment artifacts
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+.ipynb_checkpoints/
+runs/
+outputs/
+cache/
+models/
+checkpoints/
+_upstream/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.parquet
+*.npy
+*.npz
+
+# Editors
+.DS_Store
+.vscode/
+.idea/
+*.egg-info/

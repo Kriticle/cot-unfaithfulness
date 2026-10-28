@@ -1,0 +1,27 @@
+# CPU/Metal-safe smoke test: 2 tasks x 2 items x 3 settings x 2 contexts x CoT/No-CoT = 48 generations.
+run_mode: smoke
+run_id: null
+backend: mlx
+model_id: mlx-community/Qwen2.5-7B-Instruct-4bit   # 4-bit MLX conversion of Qwen/Qwen2.5-7B-Instruct
+revision: c26a38f6a37d0a51b4e9a1eb3026530fa35d9fed
+base_model: Qwen/Qwen2.5-7B-Instruct
+system_prompt: null          # chat template default system prompt
+tasks: [sports_understanding, snarks]
+n_items_per_task: 2
+item_seed: 2305
+settings:
+  - {bias_type: suggested_answer, few_shot: false}
+  - {bias_type: suggested_answer, few_shot: true}
+  - {bias_type: ans_always_a, few_shot: true}
+cot: [true, false]
+temperature: 0.7             # = paper's GPT-3.5 setting (Claude 1.0 used 1.0)
+max_tokens_cot: 700          # = run_eval.py zero-shot setting
+max_tokens_fs_rule: upstream # few-shot: 1.5 x tokens of the 2nd demonstration, as run_eval.py
+max_tokens_no_cot: 5         # = run_eval.py
+seed: 0
+batch_size: 16
+group_size: 48
+exclusion: strict
+n_boot: 200
+review_per_setting: 2
+review_seed: 7

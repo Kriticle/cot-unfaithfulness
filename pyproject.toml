@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cot_unfaithfulness"
+version = "0.1.0"
+description = "Independent reproduction of Turpin et al. (2023), 'Language Models Don't Always Say What They Think'"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "matplotlib>=3.7",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+# Local Apple-Silicon inference backend for the `new-model` mode.
+mlx = ["mlx-lm>=0.20"]
+
+[tool.setuptools]
+packages = ["cot_unfaithfulness"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

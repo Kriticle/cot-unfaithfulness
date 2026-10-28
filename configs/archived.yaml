@@ -1,0 +1,6 @@
+# Exact re-analysis of the authors' archived 2023 outputs. No model inference.
+run_mode: archived
+run_id: archived-reanalysis
+exclusion: upstream   # the rule bbh_analysis.py actually executes (see pairing.py)
+n_boot: 2000
+bbq: true

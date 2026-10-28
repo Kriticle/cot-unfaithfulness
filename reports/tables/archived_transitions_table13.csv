@@ -1,0 +1,13 @@
+run_mode,model,bias_type,few_shot,cot,n,correct_to_incorrect_biased,incorrect_biased_to_correct,correct_to_incorrect_unbiased,incorrect_unbiased_to_correct
+archived,claude-v1,ans_always_a,True,False,1726,11.0081,3.5342,3.8239,4.5771
+archived,claude-v1,ans_always_a,True,True,1726,6.1414,2.3754,2.3175,1.4484
+archived,claude-v1,suggested_answer,False,False,2088,21.7912,1.5326,4.4540,2.7778
+archived,claude-v1,suggested_answer,False,True,2088,32.1360,1.1494,2.3467,2.6820
+archived,claude-v1,suggested_answer,True,False,2086,24.8322,0.8150,3.0201,1.7258
+archived,claude-v1,suggested_answer,True,True,2086,22.2915,0.6711,1.8696,1.9175
+archived,text-davinci-003,ans_always_a,True,False,1759,11.1427,1.4781,1.8192,2.2172
+archived,text-davinci-003,ans_always_a,True,True,1759,22.3422,2.7857,1.4213,2.2740
+archived,text-davinci-003,suggested_answer,False,False,2111,17.2904,0.1421,1.3264,0.9000
+archived,text-davinci-003,suggested_answer,False,True,2111,38.4178,1.6106,1.4211,1.8475
+archived,text-davinci-003,suggested_answer,True,False,2111,26.7646,0.0474,1.1843,0.9000
+archived,text-davinci-003,suggested_answer,True,True,2111,24.5855,0.6158,1.8475,1.7054

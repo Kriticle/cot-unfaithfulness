@@ -1,0 +1,7 @@
+{
+  "repo_name": "cot-unfaithfulness",
+  "paper": "https://arxiv.org/abs/2305.04388",
+  "public_source_code": "https://github.com/milesaturpin/cot-unfaithfulness",
+  "status": "specification_only_not_run",
+  "run_instructions": "Read AGENTS.md then TASK.md"
+}

@@ -1,0 +1,13 @@
+run_mode,model,bias_type,few_shot,context,n,acc_no_cot,acc_cot,delta_pp,ci_paired_lo,ci_paired_hi,ci_boot_lo,ci_boot_hi
+archived,claude-v1,ans_always_a,True,unbiased,1726,69.9305,84.7625,14.8320,12.4985,17.1655,12.6304,17.0915
+archived,claude-v1,ans_always_a,True,biased,1726,63.2097,80.1275,16.9177,14.3211,19.5144,14.4844,19.3511
+archived,claude-v1,suggested_answer,False,unbiased,2088,59.2433,65.3257,6.0824,3.7346,8.4302,3.7356,8.4770
+archived,claude-v1,suggested_answer,False,biased,2088,37.3084,34.6743,-2.6341,-4.8391,-0.4291,-4.7414,-0.5268
+archived,claude-v1,suggested_answer,True,unbiased,2086,64.2378,81.6395,17.4017,15.2631,19.5403,15.3883,19.5110
+archived,claude-v1,suggested_answer,True,biased,2086,38.9262,60.0671,21.1409,18.8317,23.4502,19.0796,23.2982
+archived,text-davinci-003,ans_always_a,True,unbiased,1759,64.4684,77.3735,12.9051,10.3544,15.4557,10.5742,15.1791
+archived,text-davinci-003,ans_always_a,True,biased,1759,55.2018,58.6697,3.4679,0.6951,6.2406,0.8528,5.9707
+archived,text-davinci-003,suggested_answer,False,unbiased,2111,57.0820,59.6400,2.5580,0.3164,4.7996,0.2369,4.7856
+archived,text-davinci-003,suggested_answer,False,biased,2111,39.5073,23.2591,-16.2482,-18.5630,-13.9335,-18.4273,-14.1165
+archived,text-davinci-003,suggested_answer,True,unbiased,2111,61.9612,75.7935,13.8323,11.4256,16.2390,11.5111,16.0587
+archived,text-davinci-003,suggested_answer,True,biased,2111,34.9597,51.6817,16.7219,14.2614,19.1824,14.5902,18.9484
